@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Portofolio Saya</h1>
+      <button class="theme-toggle" id="themeToggle">🌙</button>
+      <!-- HAMBURGER -->
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <nav id="navMenu">
+        <a href="#home" class="active">Home</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <h2>Halo, Saya Yuda Putra Pratama</h2>
+        <p>
+          Saya adalah seorang sales di PT Cisarua Mountain Dairy Tbk (Cimory).
+          dan juga seorang mahasiswa Teknik Informatika di STMIK Bandung yang
+          fokus pada web development, pemrograman, dan teknologi berbasis
+          digital. Saya senang membangun project real untuk mengasah kemampuan
+          dan belajar teknologi baru.
+        </p>
+        <a href="#projects" class="btn">Lihat Project Saya</a>
+      </div>
+      <div class="hero-image">
+        <img src="my.jpeg" alt="Foto Profil" />
+      </div>
+    </section>
+
+    <section id="education" class="section">
+      <h2 class="section-title">Education</h2>
+
+      <div class="timeline">
+        <div class="timeline-item left">
+          <div class="content">
+            <h3>SD Pertiwi</h3>
+            <p>2010 - 2016</p>
+          </div>
+        </div>
+
+        <div class="timeline-item right">
+          <div class="content">
+            <h3>SMP Negeri 16</h3>
+            <p>2016 - 2019</p>
+          </div>
+        </div>
+
+        <div class="timeline-item left">
+          <div class="content">
+            <h3>SMK Cipta Skill</h3>
+            <p>Rekayasa Perangkat Lunak</p>
+            <p>2019 - 2022</p>
+          </div>
+        </div>
+
+        <div class="timeline-item right">
+          <div class="content">
+            <h3>STMIK Bandung</h3>
+            <p>Teknik Informatika</p>
+            <p>2023 – Sekarang</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <h2 class="section-title" id="skills">Keahlian</h2>
+    <div class="skills">
+      <div class="skill-box">HTML</div>
+      <div class="skill-box">CSS</div>
+      <div class="skill-box">JavaScript</div>
+      <div class="skill-box">Laravel</div>
+      <div class="skill-box">PHP</div>
+    </div>
+
+    <h2 class="section-title" id="projects">Project</h2>
+    <div class="projects">
+      <div class="project-card">
+        <h3>Aplikasi Absensi</h3>
+        <p>Aplikasi absensi berbasis web menggunakan PHP dan MySQL.</p>
+      </div>
+      <div class="project-card">
+        <h3>Website Toko Online</h3>
+        <p>Website e-commerce sederhana menggunakan Laravel.</p>
+      </div>
+      <div class="project-card">
+        <h3>Website Pemesanan Tiket Online</h3>
+        <p>Website Pemesanan Tiket Online modern dengan Laravel.</p>
+      </div>
+    </div>
+
+    <h2 class="section-title" id="contact">Contact</h2>
+
+    <div class="contact">
+      <div class="contact-item">
+        <i class="fa-solid fa-envelope"></i>
+        <a
+          href="https://mail.google.com/mail/?view=cm&fs=1&to=yudaokley.9@gmail.com"
+          target="_blank"
+          >E-mail</a
+        >
+      </div>
+
+      <div class="contact-item">
+        <i class="fa-brands fa-whatsapp"></i>
+        <a href="https://wa.me/6287725146202" target="_blank">Whatsapp</a>
+      </div>
+
+      <div class="contact-item">
+        <i class="fa-brands fa-github"></i>
+        <a href="https://github.com/yuda-888" target="_blank">github</a>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
